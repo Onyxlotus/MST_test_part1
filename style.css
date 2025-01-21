@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #282829;
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 1157px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.sectionFirst{
+    margin-bottom: 100px;
+}
+
+.logo{
+    font-family: "Prata", serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.navigationList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 29px;
+}
+
+.navigationItem{
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.sectionFirstLeft{
+    display: flex;
+    flex-direction: column;
+    max-width: 537px;
+    height: 1009px;
+    gap: 50px;
+    justify-content: end;
+    margin-left: 162px;
+    padding-top: 182px;
+}
+
+.sectionFirstBigText{
+    font-family: "Prata", serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 96px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.sectionFirstSmallText{
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.checkList{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: start;
+}
+
+.checkListItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    gap: 15px;
+}
+
+.checkListItem span{
+    font-family: "Prata", serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.checkListItem::before{
+    content: url('./img/chek.svg');
+    text-align: center;
+}
+
+.sectionFirstLeft button{
+    width: 191px;
+    height: 96px;
+    padding: 32px 50px;
+    background-color: #fff;
+    color: #222222;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border-radius: 4px;
+}
+
+.sectionFirstRight{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sectionSecond{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.sectionSecondCenter{
+    display: flex;
+    width: 614px;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    text-align: start;
+    gap: 80px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.sectionSecondList{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sectionSecondListItem{
+    width: 614px;
+    display: flex;
+    gap: 20px;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.sectionSecondListItem img{
+    padding-top: 5px;
+}
+
+.underline{
+    border-bottom: 1px solid #55565A;
+}
+
+.sectionSecondCenter button{
+    width: 614px;
+    height: 78px;
+    background-color: #fff;
+    color: #282829;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.sectionThree{
+    height: 628px;
+    display: flex;
+}
+
+.sectionThreeLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 1597px;
+    height: 628px;
+    border: 2px solid #D5C9BE;
+    border-radius: 30px;
+    margin-left: 161.5px;
+}
+
+.sectionThreeForm{
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    background-color: #fff;
+}
+
+.sectionThreeForm legend{
+    width: 774px;
+    font-family: "Prata", serif;;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 59.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #38535D;
+    background-color: #fff;
+}
+
+.textInput {
+    width: 781px;
+    height: 65px;
+    border: 2px solid #D6D6D6;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #55565A;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    opacity: 70%;
+    padding: 13.88px 20.82px 13.88px 38.16px;
+}
+
+.sectionThreeForm label{
+    display: flex;
+    gap: 16px;
+    color: #55565A;
+    background-color: #fff;
+    font-family: Arial;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24.7px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.sectionThreeForm label input{
+    width: 24px;
+    height: 24px;
+}
+
+.submit{
+    height: 100px;
+    font-family: Arial;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24.7px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}

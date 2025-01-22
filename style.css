@@ -12,7 +12,7 @@
 header{
     display: flex;
     justify-content: space-around;
-    width: 1157px;
+    width: 53.7%;
     position: fixed;
     left: 0;
     top: 0;
@@ -145,6 +145,7 @@ header{
 
 .sectionSecond{
     display: flex;
+    justify-content: space-between;
     margin-bottom: 100px;
 }
 
@@ -156,8 +157,7 @@ header{
     align-items: center;
     text-align: start;
     gap: 80px;
-    margin-left: 45px;
-    margin-right: 45px;
+
 }
 
 .sectionSecondList{
@@ -205,6 +205,7 @@ header{
 .sectionThree{
     height: 628px;
     display: flex;
+    justify-content: center;
 }
 
 .sectionThreeLeft{
@@ -216,7 +217,7 @@ header{
     height: 628px;
     border: 2px solid #D5C9BE;
     border-radius: 30px;
-    margin-left: 161.5px;
+    /* margin-left: 161.5px; */
 }
 
 .sectionThreeForm{
@@ -224,6 +225,8 @@ header{
     flex-direction: column;
     gap: 43px;
     background-color: #fff;
+    margin-left: 125px;
+    margin-right: -450px;
 }
 
 .sectionThreeForm legend{
@@ -284,4 +287,58 @@ header{
     line-height: 24.7px;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+}
+
+.sectionThreeLeft::after{
+    content: url("./img/8-8\ 3.png");
+}
+
+.sectionThreeRight img{
+    position:relative;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: -700px;
+    margin-top: -130px;
+}
+
+footer{
+    position: relative;
+    z-index: 4;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topFooter{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.footerline{
+    border-bottom: 2px solid #D5C9BE;
+    width: 100%;
+}
+
+.topFooterList{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 40px 0;
+}
+
+.topFooterListItem{
+    font-family: Arial;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform: uppercase;
 }
